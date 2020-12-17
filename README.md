@@ -1,2 +1,10 @@
+# Encore un pong
 
-https://hns707.github.io/Pong-Ghost/
+https://davidmarsprof.github.io/pong-wimbledon/
+
+Pour jouer...
+
+### Rafael
+touches A / Q 
+### Roger
+touches P / M 

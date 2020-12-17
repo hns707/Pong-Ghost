@@ -3,7 +3,7 @@ html{
     padding:0;
 	color: #ffffff;
     overflow: hidden;
-    --couleur-fond: #000;
+    --couleur-fond: #1f1f1f;
     --couleur-elements:#FFF;
     --couleur-on-sait-pas-trop:#808080;
     --couleur-on-sait-pas-trop-foncee:#222;
@@ -32,7 +32,10 @@ body{
     height: 100%;
     position: absolute;
     display: flex;
-    background-image: url('./skins/wimbledon/texture-background.jpg');
+    background-image: url('./skins/wimbledon/texture-background.png');
+	background-size: auto 90%;
+	background-repeat: no-repeat;
+	background-position: center;
     justify-content: center;
     align-items: center;
 }
@@ -97,8 +100,9 @@ body{
     width: 15vmin;
     height: 15vmin;
     background-image: url("./skins/wimbledon/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+	background-size: auto 50%;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .nom,.score{
