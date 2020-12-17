@@ -3,14 +3,14 @@ class Perso extends ElementHtml{
         super($html);
         this.$bulle=$html.find(".bulle");
         this.mots=[
-            "Bof"
-            ,"On s'emmerde un peu"
-            ,"Fait chaud"
+            "Bouh!"
+            ,"C'est mort ici, haha."
+            ,"Vous avez vu Mockey?"
             ,"..."
-            ,"Rolland Garros c'est mieux"
-            ,"zyva l'autre avec sa raquette"
-            ,"sont pas doués"
-            ,"Ya koi ce soir à la télé?"
+            ,"Zzz.."
+            ,"Pas trop mal."
+            ,"Wow!"
+            ,"C'est beau putain."
             ,"vive moi!"
         ];
     }
